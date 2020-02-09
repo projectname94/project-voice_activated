@@ -1,0 +1,9 @@
+Generic Readings:
+https://uxplanet.org/designing-a-vui-voice-user-interface-c0b3b9b57ace
+https://uxdesign.cc/design-guidelines-for-voice-user-interfaces-3c3b73982f4c
+https://www.nngroup.com/articles/ten-usability-heuristics/
+https://www.interaction-design.org/literature/article/how-to-design-voice-user-interfaces
+https://medium.muz.li/voice-user-interfaces-vui-the-ultimate-designers-guide-8756cb2578a1
+
+Lectures:
+https://www.youtube.com/watch?v=RdCmMMwaFRs

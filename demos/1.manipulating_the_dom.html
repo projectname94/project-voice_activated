@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Manipulating the DOM, getting / setting hashes, loops, and if statements.</title>
+</head>
+<body>
+
+  <main>
+    <section id="specific_target">
+      <div class="target">
+        <div class="child">
+          
+        </div>
+        <div id="specific_child" class="child">
+          
+        </div>
+        <div class="child">
+          
+        </div>
+      </div>
+      <div class="target">
+        
+      </div>
+      <div class="target">
+        
+      </div>
+    </section>
+  </main>
+
+  <script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", init);
+
+    function init(){
+      // Elements w/in the DOM can be targeted 
+      // using the following selectors
+
+      // Each of these methods can be applied to the document or an element
+
+      document.querySelector('.target'); 
+      // will return first match
+      
+      document.querySelectorAll('.target'); 
+      // will return all matches
+      
+      document.getElementById('specific_target'); 
+      // will return match to id, no need to include '#'
+
+      var element = document.querySelector('.target');
+      element.querySelector('.child'); 
+      // will return first matching child of .target
+      
+      element.querySelectorAll('.child'); 
+      // will return all matching children of .target
+      
+      element.getElementById('specific_child'); 
+      // will return match to id that is a child of .target
+
+      // Manipulating DOM elements:
+      // .innerHTML = '...' will replace entire contents of div
+      // .append('...') will add contents of div
+      // .style.'styletoedit' = '...' will add a style tag to whatever element you are targeting a full doc can be found here: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style
+
+      // Adding classes
+      // .classList.add('...') add classes
+      // .classList.remove('...') remove classes
+      // .classList.contains('...') returns boolean
+
+
+      // Getting / Setting Hashes:
+      
+      // Hashes can be initialized in a couple ways,
+      // empty:
+      // var hash = {};
+      
+      // starting values:
+      // var hash = {
+      //  'key': 'value',
+      //  'key2': 'value2'
+      // };
+
+      // adding new values:
+      // hash['key3'] = 'value3';
+
+      // reading values:
+      // return hash['key3'];
+      // value3
+
+      // Loops:
+      
+      // Through Arrays
+      // array.forEach((variable_name)=>function{
+      //   variable_name;
+      // });
+
+      // Through Hashes
+      // Object.keys(hash).forEach(function (key) {
+      //  hash[key];
+      // };
+
+      // If Statements
+      
+      // if (condition is true){
+      //    code;
+      // }
+    };
+  </script>
+</body>
+</html>
