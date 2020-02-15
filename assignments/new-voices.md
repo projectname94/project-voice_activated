@@ -4,7 +4,7 @@
 During your break go outside and find a brand, store, or logo to translate into a voice interaction. Quite often designers refer to a visual identities tone or voice, yet in most cases, an actual vocal interaction is not present. The goal of this assignment is to capture the brand through a selection of input commands and visual outputs.
 
 ## Requirements:
-- Select and document (camera, audio recording, pen/pencil sketch) your brand to provide a reference for your final sketch.
+- Select and document your brand with a camera, audio recording, or pen/pencil sketch. This will provide a reference for your coded exercise.
 - Create at least 3 commands that the website will respond to, with a different visual output for each one.
 
 ## Context:

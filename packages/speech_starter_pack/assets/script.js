@@ -1,9 +1,16 @@
-document.addEventListener("DOMContentLoaded", init);
+document.addEventListener("DOMContentLoaded", initialize);
 
-function init(){
+function initialize(){
   if (annyang) {
     var commands = {
-      'hello': iSaidHello
+      // explicit
+      'hello': iSaidHello,
+      // single variable
+      'greetings :name': greet,
+      // splat
+      'hi to *names': iSaidHiToMultiplePeople,
+      // optional command
+      '(please) say hello to me': iSaidHello
     }
 
     annyang.addCommands(commands);
@@ -18,4 +25,12 @@ function init(){
 
 function iSaidHello(){
   alert('hello');
+}
+
+function greet(name){
+  alert("greetings " + name);
+}
+
+function iSaidHiToMultiplePeople(names){
+  alert('hi to ' + names);
 }
