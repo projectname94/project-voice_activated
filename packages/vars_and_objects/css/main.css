@@ -1,0 +1,32 @@
+body,
+html{
+  font-family: sans-serif;
+  font-size: 20px;  
+  line-height: 1.3;
+}
+
+.content{
+  width: 20rem;
+  display: block;
+  margin: 4rem auto;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#target_element{
+  padding: 2rem;
+  border: 1px solid;
+  transition: border-radius ease 0.2s, background ease 0.2s;
+}
+
+#instructions{
+}
+
+#target_element.round_corners{
+  border-radius: 2rem;
+}
+
+#target_element.new_color{
+  background-color: yellow;
+  color: magenta;
+}
