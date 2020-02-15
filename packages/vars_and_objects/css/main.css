@@ -6,11 +6,20 @@ html{
 }
 
 .content{
-  width: 20rem;
+  width: 40%;
   display: block;
   margin: 4rem auto;
   box-sizing: border-box;
   text-align: center;
+}
+
+.code{
+  display: block;
+  background-color: lightgray;
+  padding: 1rem;
+  box-sizing: border-box;
+  font-family: monospace;
+  text-align: left;
 }
 
 #target_element{
