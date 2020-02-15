@@ -47,4 +47,5 @@ For the _first week_ of this assignment, we will be focusing on steps 2 and 4.
 - A framework that offers UI defaults [Semantic UI](https://semantic-ui.com/)
 - A html/css form workshop: [htmloutput.risd.gd](http://htmloutput.risd.gd)
 - [The Sound Game](http://tamarashopsin.com/soundgame/)
+- [Let me google that for you](http://letmegooglethat.com/?q=is+this+an+input%3F)
 
