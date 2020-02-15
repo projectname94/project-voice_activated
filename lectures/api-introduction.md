@@ -11,67 +11,67 @@ To initialize Annyang, we have four key steps:
 ### 1. check if the library is loaded:
 ```javascript
 
-	if(annyang){
+if(annyang){
 
-		// your code here
+	// your code here
 
-	}
+}
 
 ```
 
 ### 2. create a list of commands and match them to their functions:
 ```javascript
 
-	if(annyang){
-		// your commands:
-		var commands = {
-			'my first command' : firstFunction,
-			'my second command' : secondFunction
-		}
+if(annyang){
+	// your commands:
+	var commands = {
+		'my first command' : firstFunction,
+		'my second command' : secondFunction
 	}
+}
 
-	// your functions:
-	function firstFunction(){
-		alert('first command!');
-	}
+// your functions:
+function firstFunction(){
+	alert('first command!');
+}
 
-	function secondFunction(){
-		alert('second command!');
-	}
+function secondFunction(){
+	alert('second command!');
+}
 
 ```
 
 ### 3. add your commands to the annyang object:
 ```javascript
 
-	if(annyang){
+if(annyang){
 
-		var commands = {
-			'my first command' : firstFunction,
-			'my second command' : secondFunction
-		}
-
-		annyang.addCommands(commands);
-
+	var commands = {
+		'my first command' : firstFunction,
+		'my second command' : secondFunction
 	}
+
+	annyang.addCommands(commands);
+
+}
 
 ```
 
 ### 4. Tell Annyang to start listening:
 ```javascript
 
-	if(annyang){
+if(annyang){
 
-		var commands = {
-			'my first command' : firstFunction,
-			'my second command' : secondFunction
-		}
-
-		annyang.addCommands(commands);
-
-		annyang.start();
-
+	var commands = {
+		'my first command' : firstFunction,
+		'my second command' : secondFunction
 	}
+
+	annyang.addCommands(commands);
+
+	annyang.start();
+
+}
 
 ```
 
