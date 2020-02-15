@@ -1,3 +1,15 @@
 /* style */
 
 /* this is a comment */
+
+
+/* inside the {}, we can define how the button looks: */
+#click_me{
+	color: red;
+	font-weight: bold;
+}
+
+#click_me:disabled{
+	font-weight: normal;
+	color: pink;
+}

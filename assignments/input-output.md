@@ -5,41 +5,46 @@ The goal of this assignment is to create a collection of audio-based input/outpu
 
 
 ## Requirements:
-- Each sketch should have its own directory (you can just make 5 copies of the boilerplate)
-- Each sketch should have a unique input (try varying the length or amount of inputs)
+- Each sketch should have its own directory (you can just make 5 copies of the [speech starter pack]())
+- Each sketch should have a unique input command (try varying the length or amount of inputs)
 - Each sketch&rsquo;s output should be visually distinct
 
 ## Timeline
 
 ### Week 1
-For next week you will create 5 separate input/output sketches, each exploring a different type of speech-based input and visual output.
+For the first week you will create 5 separate input/output sketches, each exploring a different type of speech-based input and visual output.
 
 ### Week 2
-Expand 3 (or 4 if you continue working a group) of your input/outputs to include all states of feedback.
+Expand 3 (or 4 if you continue working in a group) of your input/outputs to include all states of feedback.
 
 
 ## Context:
-For this class, we want to break down an interaction into the following states of feedback:
+### States of Feedback
+For this class, we want to break down an interaction into the **following states of feedback**:
 
-1. How do you begin an input
-2. Show ready state
+1. Show ready state
+2. Begin input
 3. Acknowledge received input
 4. Show output
 5. Error state
 
-For the _first week_ of this assignment, we will be focusing on steps 1 and 4.
+For the _first week_ of this assignment, we will be focusing on steps 2 and 4.
 
 
 ## Goals:
-- revisit javascript
-- get acquainted with the library
-- explore a simple audio input interaction
-- iteration: rough sketches of simple ideas: a repository of interactions
+- Learn to use Javascript as a prototyping tool
+- get acquainted with the speech library Annyang
+- explore simple audio input interactions
+- Create a repository of interactions through the quick iteration of ideas
 
 
-## Examples:
-- rafael rozendaal
-- clickclickclick
-- alexei shulgin "Form"
-- semantic ui (https://semantic-ui.com/)
-- htmloutput.risd.gd
+## Interaction Examples:
+- A Google produced prototype for the Speech API: [Speech Color Changer](https://mdn.github.io/web-speech-api/speech-color-changer/)
+- A phone-linked website designed by HAWRAF: [1833marcive](http://1833marcive.com/)
+- A generative web-to-print catalogue: [A.I.R. Gallery Biennial](https://letstrylisteningagain.org/)
+- A simple interaction with a lot of feedback: [clickclickclick.click](https://clickclickclick.click/)
+- An early net art work exploring html elements by Alexei Shulgin: ["Form"](http://variants.artbase.rhizome.org/Q1249/)
+- A framework that offers UI defaults [Semantic UI](https://semantic-ui.com/)
+- A html/css form workshop: [htmloutput.risd.gd](http://htmloutput.risd.gd)
+- [The Sound Game](http://tamarashopsin.com/soundgame/)
+
