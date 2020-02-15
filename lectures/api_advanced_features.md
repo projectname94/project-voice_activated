@@ -56,9 +56,9 @@ annyang.addCallback('result', resultFunction);
 ```
 
 ## resultMatch
-Fired when annyang was able to match between what the user said and a registered command.
+Fired when annyang was able to match between what the user said and a registered command. This would be great for state 4 if you wanted to include some preprocessing before producing your output, e.g. comparing what the user said to the commamd text you were expecting.
 
-The Callback functions for this event will be called with three arguments in the following order, i've named them userSaid, commandText, phrases:
+The Callback functions for this event will be called with three arguments in the following order, in this case we've named them userSaid, commandText, and phrases:
 
 - The phrase the user said that matched a command.
 - The command that was matched.
@@ -71,6 +71,21 @@ annyang.addCallback('resultMatch', resultMatch);
 function resultMatch(userSaid, commandText, phrases){
   console.log(userSaid); // sample output: 'hello'
   console.log(commandText); // sample output: 'hello (there)'
+  console.log(phrases); // sample output: ['hello', 'halo', 'yellow', 'polo', 'hello kitty']
+}
+
+```
+
+## resultNoMatch
+Fired when what the user said didn't match any of the registered commands. This would be a great callback to use for state 5, your error state.
+
+Callback functions for this event will be called with an array of possible phrases the user might have said as the first argument.
+
+```javascript
+
+annyang.addCallback('resultNoMatch', resultNoMatch);
+
+function resultMatch(phrases){
   console.log(phrases); // sample output: ['hello', 'halo', 'yellow', 'polo', 'hello kitty']
 }
 
