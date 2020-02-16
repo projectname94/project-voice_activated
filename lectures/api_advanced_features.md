@@ -26,12 +26,10 @@ annyang.addCallback('start', startFunction);
 
 ```
 
-An important thing to remember:
-if you call,
+An important thing to remember is that this will only fire when you call
 ```javascript
 annyang.start();
 ```
-in your initialize function, this will only fire once
 
 ## soundstart
 Fired as soon as any sound (possibly speech) has been detected.
