@@ -2,18 +2,25 @@ Week1
 
   1. Introductions, students and teachers (10-15min)
   2. Review syllabus (15min)
-  2. What is an input, what is an output (Lukas and Rahul) (20min)
+
+  3. Checking in on primer assignment (brief discussion, fears?)
+
+  4a. What is an input, what is an output (Lukas and Rahul) (20min)
 
 Individual 
-  2. Manipulating the DOM review (Lukas) (30min)
-  3. Variables, loops, and conditionals (Lukas) (30min)
-  4. Api introduction, boilerplate (Rahul) (20min)
+  4b. Manipulating the DOM review (Lukas) (15min)
+  4c. Variables, loops, and conditionals (Lukas) (15min)
+  
+  -- Short Break (5min) --
 
-  5. Assigning groups (5-10min)
+  Show a version of color grid demo I made
+  
+  6. Api introduction, boilerplate (Rahul) (15min)
+  7. Assigning groups (5-10min)
 
 Group Work (remaining time)
-  6. introduce input/output assignment and give time to start first example
-  7. assign reading and take home assignment
+  8. introduce input/output assignment and give time to start first example
+  9. assign reading and take home assignment
 
 Week2
   
@@ -25,11 +32,13 @@ Week2
   3. Input/Output Critique
     a. split class in half so that everyone can get feedback
   4. lecture on API advanced features (Rahul)
-  5. Assignment introduction, in class work
+  5. Assignment introduction, in class work (Lukas)
   6. Assign reading (watching video)
 
 Week3
-
+  
+  1. Small group Discussion about video
+    - one question per group, produce collective answer
   1. Mini Lecture on Voice and Interfaces (Lukas and Rahul) (30min)
   2. Open review (30min)
     - split class into small groups that rotate to make sure people/groups can see a wide number of examples and get one on one feedback
@@ -43,7 +52,7 @@ Week3
 
 Week4
   1. In class meetings
-  
+
 Week5
   Final presentations (Rahul's back!)
   
