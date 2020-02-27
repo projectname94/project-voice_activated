@@ -27,6 +27,8 @@ function makeOneBoxGreen(){
 
 function resetBoxes(){
   document.querySelectorAll('.demo_box').forEach((element)=>{
-    element.className = 'demo_box';
+    element.classList.remove('blue');
+    element.classList.remove('red');
+    element.classList.remove('green');
   });
 }

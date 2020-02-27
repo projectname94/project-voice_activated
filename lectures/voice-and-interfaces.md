@@ -3,6 +3,7 @@
 What is the importance of tying visual communication to senses other than sight? 
 - [450 words a minute](https://www.vincit.fi/en/software-development-450-words-per-minute/)
 - `<img src="" alt="" >` [Alt text as poetry](https://shannonfinnegan.com/alt-text-as-poetry)
+- Christine Sun Kim [drawings](http://christinesunkim.com/paper/)
 
 How minimal can an interface be? 
 
