@@ -72,4 +72,5 @@ each talk about a couple. always what is i/o? where is blurry?
 - A Google produced prototype for the Speech API: [Speech Color Changer](https://mdn.github.io/web-speech-api/speech-color-changer/)
 - A phone-linked website designed by HAWRAF: [1833marcive](http://1833marcive.com/)
 - A framework that offers UI defaults [Semantic UI](https://semantic-ui.com/)
+- masking input and output in [Gmail&rsquo;s Tabs](https://www.theguardian.com/us-news/2020/feb/26/gmail-hiding-bernie-sanders-emails-google-inbox-sorting-consequences-2020)
 <!-- - [The Sound Game](http://tamarashopsin.com/soundgame/) -->

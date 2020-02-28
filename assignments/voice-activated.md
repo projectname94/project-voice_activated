@@ -1,7 +1,7 @@
 # Voice Activated Interfaces
 
 ## Brief
-While speaking to your houseplants is recommended and untangling headphones might lead to shouts of exasperation, the majority of our day-to-day interactions with "things" are non-verbal.
+While speaking to your houseplants is recommended and untangling headphones might lead to shouts of exasperation, the majority of our day-to-day interactions with &ldquo;things&rdquo; are non-verbal.
 
 Select a non-verbal interaction (digital or physical) and introduce a layer of voice activation. Consider how this introduction enhances (or limits) the interaction: 
 - How does our expectation of how it should (re)act change?
