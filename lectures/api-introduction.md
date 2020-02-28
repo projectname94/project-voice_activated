@@ -1,5 +1,16 @@
 # API Introduction
 
+<!-- 
+
+	First thing before getting started:
+
+	Show demo:
+
+	Download starter pack from website
+
+
+-->
+	
 For this workshop we will be using the [Annyang Speech Recognition Library](https://www.talater.com/annyang/).
 
 The starter pack already has this library loaded in, but there are a few notes we'd like to cover:
@@ -78,6 +89,13 @@ if(annyang){
 ## Commands
 
 At its core, Annyang tries to match verbal commands with functions. There are a few ways Annyang does this:
+
+<!-- 
+	Delete all code 
+	Tell students that they can download the starter pack at anytime
+
+	before going over command types be sure to start annyang!
+-->
 
 
 ### Explicit match:
