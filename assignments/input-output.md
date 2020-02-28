@@ -3,11 +3,23 @@
 ## Brief:
 The goal of this assignment is to create a collection of audio-based input/outputs with Javascript for everyone to refine and reference over the course of this workshop. Over the next few weeks, we will be using these i/o's as a starting point for critiques and discussions on what a cross-sensory interaction can be.
 
+## Considerations
+- Which words are optional in your commands?
+- Can you identify the limitations of this library?
+- How do you engage with the limits of this library?
+- Should the user be aware of these limits?
+- What do you wish you could tell your computer to do?
+- What existing digital action can you translate to speech? How does that action change?
+- Tactility provides immediate haptic responsiveness to our actions. How might we translate this expectation into speech?
+- How might you sing to your computer?
+- What kinds of words can `annyang` understand easily? Which ones are harder for it to interpret?
+- In what environment are you comfortable talking to your computer?
 
 ## Requirements:
-- Each sketch should have its own directory (you can just make 5 copies of the [speech starter pack]())
+- Each sketch should have its own directory (you can just make 5 copies of the [speech starter pack](/files/speech_starter_pack.zip))
 - Each sketch should have a unique input command (try varying the length or amount of inputs)
 - Each sketch&rsquo;s output should be visually distinct
+- You should use each command type (`explicit` `single variable` `splat`, and `optional command`) at least once.
 
 ## Timeline
 
