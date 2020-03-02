@@ -83,7 +83,7 @@ Callback functions for this event will be called with an array of possible phras
 
 annyang.addCallback('resultNoMatch', resultNoMatch);
 
-function resultMatch(phrases){
+function resultNoMatch(phrases){
   console.log(phrases); // sample output: ['hello', 'halo', 'yellow', 'polo', 'hello kitty']
 }
 

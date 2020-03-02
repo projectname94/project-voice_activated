@@ -12,7 +12,7 @@ An i/o interaction contains 5 distinct states
 Before a user can begin an interaction they need to know that the computer is listening and that they will be acknoledged. Apple's Siri interface uses an audio cue to indicate it is ready.
 
 ## 2. Begin an input
-While a user is speaking to their device, should there be some sort of indication that they are being listened to? Siri provides a subtle automation
+While a user is speaking to their device, should there be some sort of indication that they are being listened to? Siri provides a subtle animation
 
 ## 3. Acknowledge received input
 After the input has been completed there is an indication that it is being processed. Siri will display the text that it is processing on your screen to show you what it is responding too.
