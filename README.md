@@ -6,6 +6,7 @@
 - [ ] review advanced features lectures + demo
 - [ ] make questions for week 1 readings
 - [ ] setup structure for critique
+- [ ] review assignment for week two
 
 ### Lower Priority
 - [ ] lukas to make variable and conditions doc
