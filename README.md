@@ -5,6 +5,7 @@
 - [ ] review states of feedback lectures
 - [ ] review advanced features lectures + demo
 - [ ] make questions for week 1 readings
+- [ ] setup structure for critique
 
 ### Lower Priority
 - [ ] lukas to make variable and conditions doc
