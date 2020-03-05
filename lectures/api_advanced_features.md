@@ -6,7 +6,13 @@ Start by showing example that is in the starter pack, bring up eliza and it's no
 https://www.youtube.com/watch?v=RMK9AphfLco
 -->
 
-<!-- Explain front end 
+<!-- 
+starting a php server
+php -S localhost:8000
+ -->
+
+<!-- 
+Explain front end 
   - button to start
   - indication that it is listening
   - indication that a result is processed
@@ -15,7 +21,7 @@ https://www.youtube.com/watch?v=RMK9AphfLco
 -->
 
 
-<!-- So before we jump into any of the javascript on the back end can anyone tell me what an event listener is, what is a callback? -->
+<!-- So before we go any further can anyone tell me what an event listener is, what is a callback? -->
 
 An event listener is a type of callback that can be used to identify interactions with the document. These are added using the following syntax:
 ```javascript
@@ -24,9 +30,13 @@ document.body.addEventListener('click', functionName);
 
 ```
 
-Annyang has a series of library specific callbacks to make it easier to produce an interaction that follows the five states of feedback that we outlined.
+A callback is a function that is to be executed after another function has finished executing — hence the name ‘call back’.
 
-You have encountered one in the starter pack already.
+In JavaScript, functions are objects. Because of this, functions can take functions as arguments, and can be returned by other functions. Functions that do this are called higher-order functions. Any function that is passed as an argument is called a callback function.
+
+Annyang has a series of library specific callbacks that fire upon the completion of certain function. These will make it easier to produce an interaction that follows the five states of feedback that we discussed.
+
+<!-- You have encountered one already in the speech starter pack -->
 
 Below are a few callbacks that we think will be useful for implementing the five states of feedback and for debuging
  
@@ -106,7 +116,7 @@ function resultNoMatch(phrases){
 
 ```
 
-<!-- heading back to the front end lets go over the the front end and identify the states of feedback that are present.
+<!-- heading back to the front end lets  identify the states of feedback that are present.
 -->
 
 ## States of feedback for example application:
@@ -118,7 +128,7 @@ The 'Talk to me' Button is not disabled and is a call to action for the user.
 Annyang will not start listening until the user clicks on the 'talk to me' button.
 
 ### 3. Acknowledge received input
-A gif of an ear with a rainbow of information emmiting into it is display when `annyang` recognizing speech/sound.
+A gif of an ear with a rainbow of information emmiting into it is display when `annyang` recognizes speech/sound.
 
 ### 4. Show output
 A response appears underneath the prompt that the code is responding to.
@@ -143,8 +153,7 @@ Next we want to make sure that the button is disabled after it's clicked, let's 
 -->
 
 <!--
-  whats next? before we can create our generate text button function we have one more step, defining the
-  result function so that we can prompt the user to look down by revealing the arrow and populating the #input_text using insertAdjacentHTML in a for loop and adding the class .result_ready to the body
+  whats next? before we can create our generateText function we have one more step, defining the result function so that we can prompt the user to look down by revealing the arrow and populating the #input_text using insertAdjacentHTML in a for loop and adding the class .result_ready to the body
 
 -->
 
@@ -156,7 +165,7 @@ Next we want to make sure that the button is disabled after it's clicked, let's 
   
   if we wan't to clear the text we should do that in the start function, because it essentially is a restart
 
-  let's do a bit of cleanup before we get to the results
+  let's do a bit more cleanup before we get to generateText()
 
   what else is wrong here compared to the initial example
 
@@ -164,7 +173,7 @@ Next we want to make sure that the button is disabled after it's clicked, let's 
   
   lets make sure to remove that visible class from #listening
   
-  lets also take out the resultreadyclass from the body when annyang starts to clear the arrow image
+  lets also take out the resultready class from the body when annyang starts to clear the arrow image
 
   next lets show some output,
   - two types of output, response and error
