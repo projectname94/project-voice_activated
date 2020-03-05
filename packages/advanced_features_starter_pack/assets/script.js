@@ -8,16 +8,11 @@ function initialize(){
   if (annyang) {
     var commands = {
       'hello (computer)': sayHello,
-      'how (are) you (doing)': computerState
+      'how (are) you (doing)': computerState,
+      'I am feeling *splat': questionFeeling
     }
 
     annyang.addCommands(commands);
-
-    annyang.addCallback('result', function(phrases) {
-      for (var i = 0; i < phrases.length; i++) {
-        document.getElementById('input_text').insertAdjacentHTML('beforeend', (i + 1) + '. ' + phrases[i] + '<br>');
-      }
-    });
 
     button.addEventListener('click', startListening);
     stop_button.addEventListener('click', abort);
@@ -44,9 +39,11 @@ function soundStarted(){
   document.getElementById('listening').classList.add('visible');
 }
 
-function resultFunction(){
+function resultFunction(phrases){
   document.body.classList.add('result_ready'); 
-
+  for (var i = 0; i < phrases.length; i++) {
+    document.getElementById('input_text').insertAdjacentHTML('beforeend', (i + 1) + '. ' + phrases[i] + '<br>');
+  }
   abort();
 }
 
@@ -58,13 +55,15 @@ function abort(){
 }
 
 function sayHello(){
-  var text = 'Hello';
-  generateText(text, false);
+  generateText('Hello human', false);
 }
 
 function computerState(){
-  var text = "Not the best :(";
-  generateText(text, false); 
+  generateText("Not the best :(", false); 
+}
+
+function questionFeeling(splat){
+  generateText("Why are you feeling " + splat + '?', false);   
 }
 
 function resultNoMatch(){

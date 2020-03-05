@@ -6,9 +6,16 @@ Start by showing exmample that is in the starter pack, bring up eliza and it's n
 https://www.youtube.com/watch?v=RMK9AphfLco
 -->
 
-<!-- Explain front end -->
+<!-- Explain front end 
+  - button to start
+  - indication that it is listening
+  - indication that a result is processed
+  - an indication if the computer can't respond
+  - a way to exit the interaction
+-->
 
-<!-- Can anyone tell me what an event listener is, what is a callback? -->
+
+<!-- So before we jump into any of the javascript on the back end can anyone tell me what an event listener is, what is a callback? -->
 
 An event listener is a type of callback that can be used to identify interactions with the document. These are added using the following syntax:
 ```javascript
@@ -19,13 +26,16 @@ document.body.addEventListener('click', functionName);
 
 Annyang has a series of library specific callbacks to make it easier to produce an interaction that follows the five states of feedback that we outlined.
 
-Below are a few callbacks that we think should be used. 
+You have encountered one in the starter pack already.
 
-These will also be useful for debuging
+Below are a few callbacks that we think will be useful for implementing the five states of feedback and for debuging
  
 If you are feeling adventurous, feel free to take a look at the full [Annyang Doc](https://github.com/TalAter/annyang/blob/master/docs/README.md)
 
 Each one of these callbacks will be defined in your initialize function
+
+<!-- heading back to the front end lets go over the the front end and identify the states of feedback that are present.
+-->
 
 ## States of feedback for example application:
 
@@ -43,6 +53,8 @@ A response appears underneath the prompt that the code is responding to.
 
 ### 5. Error State
 A negative response appears in red when the computer doesn't understand (can't respond to) what you have said.
+
+<!-- So now that we know what each element of the front end does we can go back into our javascript and define some global variable for elements that we will need to access between many functions -->
 
 
 <!-- Go Over Global variable by talking about what elements we will be interacting within the javascript file -->
