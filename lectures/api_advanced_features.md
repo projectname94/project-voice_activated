@@ -1,5 +1,15 @@
 # API advanced features
 
+<!-- 
+Start by showing exmample that is in the starter pack, bring up eliza and it's novelty, what it illuminated about humans expectations for computers/companionships
+
+https://www.youtube.com/watch?v=RMK9AphfLco
+-->
+
+<!-- Explain front end -->
+
+<!-- Can anyone tell me what an event listener is, what is a callback? -->
+
 An event listener is a type of callback that can be used to identify interactions with the document. These are added using the following syntax:
 ```javascript
 
@@ -16,6 +26,60 @@ These will also be useful for debuging
 If you are feeling adventurous, feel free to take a look at the full [Annyang Doc](https://github.com/TalAter/annyang/blob/master/docs/README.md)
 
 Each one of these callbacks will be defined in your initialize function
+
+## States of feedback for example application:
+
+### 1. Show ready state
+The 'Talk to me' Button is not disabled and is a call to action for the user.
+
+### 2. Begin Input
+Annyang will not start listening until the user clicks on the 'talk to me' button.
+
+### 3. Acknowledge received input
+A gif of an ear with a rainbow of information emmiting into it is display when `annyang` recognizing speech/sound.
+
+### 4. Show output
+A response appears underneath the prompt that the code is responding to.
+
+### 5. Error State
+A negative response appears in red when the computer doesn't understand (can't respond to) what you have said.
+
+
+<!-- Go Over Global variable by talking about what elements we will be interacting within the javascript file -->
+
+<!-- 
+  add click event listener to start annyang
+
+  disable the button when annyang starts
+
+  show ear gif on soundstart
+
+  result function
+
+  show that working
+
+  define result function
+
+  annyang.abort() in result function
+
+  button remove class disabled
+
+  you said doesn't clear, where should we clear it?
+
+  gif of ear immediately appear when you click regardless of whether sound is detected.
+
+  - start annyang function, clears disabled state and display of gif
+
+  - get annyang to stop with button
+
+  - showing output,
+  - two types of output, response and error
+  - start with response
+  - develop generic function to put response into html
+  - use generic response to handle callback for resultNoMatch 
+ -->  
+
+
 
 ## start
 Fired as soon as the browser's Speech Recognition engine starts listening.
