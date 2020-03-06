@@ -154,16 +154,17 @@ Next we want to make sure that the button is disabled after it's clicked, let's 
 
 <!--
   whats next? before we can create our generateText function we have one more step, defining the result function so that we can prompt the user to look down by revealing the arrow and populating the #input_text using insertAdjacentHTML in a for loop and adding the class .result_ready to the body
-
 -->
 
 <!--
   so now we have the problem that the button is still disabled, annyang hasn't stopped listening.
 
+  We've gone through it once, but need to be able to do it again.
+
   lets create an abort function 
-  do cover those two cases
+  to cover these two problems
   
-  if we wan't to clear the text we should do that in the start function, because it essentially is a restart
+  if we want to clear the text we should do that in the start function, because it essentially is a restart
 
   let's do a bit more cleanup before we get to generateText()
 
