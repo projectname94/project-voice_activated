@@ -27,9 +27,22 @@ function initialize(){
     // The reason we wait to disable the start button, and enable the stop button on
     // annyang 'start' is to account for instances in which the the user doesn't allow 
     // access to the microphone
+
+    // Fired as soon as the browser's Speech Recognition engine starts listening.
     annyang.addCallback('start', startFunction);
+
+    // Fired as soon as any sound (possibly speech) has been detected.
+    // This will be useful for state 2, Begining an input
     annyang.addCallback('soundstart', soundStarted);
+
+    // Fired as soon as some speech was identified. 
+    // This will be useful for state 3, Acknowledge received input
+    // The resultFunction will contain one argument 'phrases' which is an array 
+    // of all possible detected phrases
     annyang.addCallback('result', resultFunction);
+
+    // Fired when what the user said didn't match any of the registered 
+    // commands. This would be a great callback to use for state 5, your error state.
     annyang.addCallback('resultNoMatch', resultNoMatch);
   }
 }
