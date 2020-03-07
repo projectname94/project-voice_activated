@@ -14,9 +14,18 @@ function initialize(){
 
     annyang.addCommands(commands);
 
+    // Click Handler to start annyang
     button.addEventListener('click', startListening);
+    // Click Handler to abort annyang
     stop_button.addEventListener('click', abort);
 
+    // You'll notice there are two 'start' functions,
+
+    // One to start listening, and one that fires after annyang succesfully starts
+
+    // The reason we wait to disable the start button, and enable the stop button on
+    // annyang 'start' is to account for instances in which the the user doesn't allow 
+    // access to the microphone
     annyang.addCallback('start', startFunction);
     annyang.addCallback('soundstart', soundStarted);
     annyang.addCallback('result', resultFunction);
@@ -26,8 +35,8 @@ function initialize(){
 
 function startListening(){
  document.body.classList.remove('result_ready'); 
- annyang.start();
  document.getElementById('input_text').innerHTML = '';
+ annyang.start();
 }
 
 function startFunction(){
