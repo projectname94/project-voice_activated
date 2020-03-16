@@ -9,7 +9,6 @@
 - Which points are the most opinionated? (#8)
 - who is jakob nielson?
 
-
 ## Design guidelines for voice user interfaces
 
 - what other human visual feedback (other than expressions) might we learn from when designing for speech input? 
@@ -38,6 +37,8 @@ round robin
 class presentation
 - which interaction was the most popular? why do you think that is?  
 
+## States of Feedback Lecture
 
-
+heuristic: 
+enabling a person to discover or learn something for themselves: a “hands-on” or interactive heuristic approach to learning
 

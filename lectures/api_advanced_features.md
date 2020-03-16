@@ -6,7 +6,8 @@ Start by showing example that is in the starter pack, bring up eliza and it's no
 https://www.youtube.com/watch?v=RMK9AphfLco
 -->
 
-<!-- 
+<!-- \
+  
 starting a php server
 php -S localhost:8000
  -->

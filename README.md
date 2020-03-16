@@ -2,12 +2,15 @@
 
 ## TODO
 ### High Priority
-- [ ] review states of feedback lectures
+- [x] review states of feedback lectures
+- [x] make questions for week 1 readings
+- [x] setup structure for critique
 - [ ] review advanced features lectures + demo
-- [ ] make questions for week 1 readings
-- [ ] setup structure for critique
 - [ ] review assignment for week two
+- [ ] update class site
+- [ ] make assets
+	- [ ] 10 heuristics intro
 
 ### Lower Priority
-- [ ] lukas to make variable and conditions doc
+- [x] lukas to make variable and conditions doc
 - [ ] make questions for week 2 readings (video)
